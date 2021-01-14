@@ -60,3 +60,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+## HOW TO GET IT RUNNING ON YOUR MACHINE:
+
+- Install composer
+- Clone this repo
+
+- Create .env file: `touch .env`
+- Add one line to it: `APP_KEY=`
+- Generate an app key in terminal: `php artisan key:generate`
+
+- Run `./vendor/bin/sail up` (takes a while the first time)
+- Go to `localhost`
+
