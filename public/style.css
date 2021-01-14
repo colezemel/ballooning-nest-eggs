@@ -1,0 +1,324 @@
+/* Desktop */
+@media only screen and (max-width: 3000px) {
+    .stripes {
+        width: 100%; 
+        height: 20px; 
+        position: absolute; 
+        top: 8px;
+    } 
+
+    .greenLine {
+        width: 100%; 
+        height: 70px; 
+        position: absolute; 
+        top: 140px;
+    }
+
+    .logo {
+        width: 260px;
+        height: 85px;
+        position: absolute; 
+        top: 70px; 
+        left: 80px;
+    }
+
+    .ourStory {
+        display: inline-block; 
+        position: absolute; 
+        right: 350px;
+        top: 55px;
+        font-family: 'Lato'; 
+        font-size: 15px; 
+        color: #008fa8;
+        font-weight:600;
+    }
+
+    .logIn {
+        display: inline-block;
+        position: absolute;
+        right: 280px;
+        top: 55px;
+        font-family: 'Lato'; 
+        font-size: 15px; 
+        color: #008fa8; 
+        font-weight:600;
+    }
+
+    .signUpBorder {
+        display: inline-block;
+        position: absolute;
+        right: 160px;
+        top: 63px;
+        width: 90px;
+        height: 35px;
+        background-color: #77378e;
+        border-radius: 12px;
+        vertical-align: middle;
+        z-index: 1;
+    }
+
+    .signUp {
+        display: inline-block;
+        position: absolute;
+        right: 5px;
+        top: -8px;
+        width: 80px;
+        height: 30px;
+        font-family: 'Lato';
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        z-index: 2;
+    }
+
+    .startGiving {
+        position: absolute;
+        display: inline-block;
+        top: 20%;
+        left: 15%;
+        width: 16%;
+        height: 20%;
+        font-size: 50px;
+        color: #636466;
+        font-family: 'Lato';
+    }
+
+    .infoFields {
+        position: absolute;
+        /* display: inline-block; */
+        top: 25%;
+        right: 32%;
+        font-size: 18px;
+        color: #636466;
+    }
+
+    .joinNowBorder {
+        /* display: inline-block;
+        position: absolute; */
+        /* right: 160px;
+        top: 63px; */
+        width: 130px;
+        height: 35px;
+        background-color: #2c64ad;
+        border-radius: 2px;
+        vertical-align: middle;
+        z-index: 1;
+    }
+
+    .joinNow {
+        /* display: inline-block; */
+        position: absolute;
+        right: 260px;
+        top: 325px;
+        width: 80px;
+        height: 30px;
+        font-family: 'Lato';
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        z-index: 2;
+        text-decoration: none;
+    }
+
+
+    .balloonsCorner {
+        position: absolute; 
+        width: 225px;
+        height: 220px;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    .eggRibbon {
+        position: absolute; 
+        width: 350px;
+        height: 25%;
+        bottom: 10%;
+        right: 15%;
+    }
+
+
+    .thankYou {
+        position: absolute;
+        width: 70%;
+        top: 18%;
+        left: 18%;
+        font-size: 50px;
+        text-align: center;
+        z-index: 2;
+        color: #636466;
+        font-family: 'Lato';
+    }
+
+    .baby {
+        position: absolute; 
+        width: 85%;
+        height: 80%;
+        bottom: 5px;
+        left: 10%;
+        z-index: 1;
+    }
+}
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+    .stripes {
+        width: 100%; 
+        height: 8px; 
+        position: absolute; 
+        top: 0px;
+    } 
+
+    .greenLine {
+        width: 100%; 
+        height: 50px; 
+        position: absolute; 
+        top: 70px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 70px;
+        position: absolute; 
+        top: 20px; 
+        left: 20px;
+    }
+
+    .ourStory {
+        display: inline-block; 
+        position: absolute; 
+        right: 100px;
+        top: 25px;
+        font-family: 'Lato'; 
+        font-size: 8px; 
+        color: #008fa8; 
+        font-weight:600;
+    }
+
+    .logIn {
+        display: inline-block;
+        position: absolute;
+        right: 65px;
+        top: 25px;
+        font-family: 'Lato'; 
+        font-size: 8px; 
+        color: #008fa8; 
+        font-weight:600;
+    }
+
+    .signUpBorder {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 31px;
+        width: 43px;
+        height: 15px;
+        background-color: #77378e;
+        border-radius: 12px;
+        vertical-align: middle;
+        z-index: 1;
+    }
+
+    .signUp {
+        display: inline-block;
+        position: absolute;
+        right: -19px;
+        top: -6px;
+        width: 80px;
+        height: 30px;
+        font-family: 'Lato';
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        z-index: 2;
+    }
+
+    .startGiving {
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        width: 70%;
+        top: 150px;
+        font-size: 25px;
+        color: #636466;
+        font-family: 'Lato';
+    }
+
+    .infoFields {
+        position: absolute;
+        top: 25%;
+        right: 22%;
+        font-size: 15px;
+        color: #636466;
+    }
+
+    .joinNowBorder {
+        /* display: inline-block;
+        position: absolute; */
+        /* right: 160px;
+        top: 63px; */
+        width: 130px;
+        height: 35px;
+        background-color: #2c64ad;
+        border-radius: 2px;
+        vertical-align: middle;
+        z-index: 1;
+    }
+
+    .joinNow {
+        /* display: inline-block; */
+        position: absolute;
+        right: 200px;
+        top: 273px;
+        width: 80px;
+        height: 30px;
+        font-family: 'Lato';
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        z-index: 2;
+        text-decoration: none;
+    }
+
+    .balloonsCorner {
+        position: absolute; 
+        width: 225px;
+        height: 220px;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    .eggRibbon {
+        position: absolute; 
+        width: 290px;
+        height: 25%;
+        bottom: 10%;
+        right: 25%;
+    }
+
+
+    .thankYou {
+        position: absolute;
+        width: 70%;
+        top: 150px;
+        left: 100px;
+        font-size: 25px;
+        text-align: center;
+        z-index: 2;
+        color: #636466;
+        font-family: 'Lato';
+    }
+
+    .baby {
+        position: absolute; 
+        width: 100%;
+        height: 70%;
+        bottom: 100px;
+        left: 0%;
+        z-index: 1;
+    }
+}
